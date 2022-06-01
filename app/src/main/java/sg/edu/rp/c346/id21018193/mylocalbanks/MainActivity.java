@@ -40,33 +40,33 @@ public class MainActivity extends AppCompatActivity {
         menu.add(0,1,1,"Contact The Bank");
 
         if(v == dbs){
-            if(ContextMenuInfo == "Website"){
+            if(ContextMenuInfo.equals("Website")){
                 Intent intentCall = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.dbs.com"));
                 startActivity(intentCall);
             }
-            else if(ContextMenuInfo == "Contact The Bank"){
+            else if(ContextMenuInfo.equals("Contact The Bank")){
                 Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse(String.valueOf(1111111)));
                 startActivity(intentCall);
             }
             wordClicked = "dbs";
         }
         else if(v == ocbc){
-            if(ContextMenuInfo == "Website"){
+            if(ContextMenuInfo.equals("Website")){
                 Intent intentCall = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ocbc.com"));
                 startActivity(intentCall);
             }
-            else if(ContextMenuInfo == "Contact The Bank"){
+            else if(ContextMenuInfo.equals("Contact The Bank")){
                 Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse(String.valueOf(3633333)));
                 startActivity(intentCall);
             }
             wordClicked = "ocbc";
         }
         else if(v == uob){
-            if(ContextMenuInfo == "Website"){
+            if(ContextMenuInfo.equals("Website")){
                 Intent intentCall = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uob.com"));
                 startActivity(intentCall);
             }
-            else if(ContextMenuInfo == "Contact The Bank"){
+            else if(ContextMenuInfo.equals("Contact The Bank")){
                 Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse(String.valueOf(2222121)));
                 startActivity(intentCall);
             }
