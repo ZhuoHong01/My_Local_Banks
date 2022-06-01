@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     TextView uob;
 
     String wordClicked = "";
-    private String ContextMenuInfo;
+    String ContextMenuInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
