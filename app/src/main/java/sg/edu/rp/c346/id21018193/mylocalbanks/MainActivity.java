@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ocbc = findViewById(R.id.textViewBank2);
         registerForContextMenu(ocbc);
         uob = findViewById(R.id.textViewBank3);
-        registerForContextMenu(ocbc);
+        registerForContextMenu(uob);
     }
 
     @Override
