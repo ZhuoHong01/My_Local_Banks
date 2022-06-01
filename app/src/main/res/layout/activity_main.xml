@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#9CA16868"
@@ -17,7 +18,7 @@
         android:text="@string/Title"
         android:textAlignment="center"
         android:textColor="#A62525"
-        android:textSize="35dp" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/textViewBank1"
@@ -29,7 +30,7 @@
         android:text="@string/Bank1"
         android:textAlignment="center"
         android:textColor="#831212"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/textViewBank2"
@@ -41,7 +42,7 @@
         android:text="@string/Bank2"
         android:textAlignment="center"
         android:textColor="#682727"
-        android:textSize="25dp" />/>
+        android:textSize="25sp" />/>
 
     <TextView
         android:id="@+id/textViewBank3"
@@ -53,5 +54,6 @@
         android:text="@string/Bank3"
         android:textAlignment="center"
         android:textColor="#800D0D"
-        android:textSize="25dp" />/>
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck" />/>
 </LinearLayout>
