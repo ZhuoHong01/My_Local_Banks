@@ -4,4 +4,7 @@
     <string name="Bank1">DBS</string>
     <string name="Bank2">OCBC</string>
     <string name="Bank3">UOB</string>
+    <string-array name="UOB" chineseName="大华银行" translatable="true" website="https://www.uob.com.sg" num="18002222121"/>
+    <string-array name="DBS" chineseName="星展银行" translatable="true" website="https://www.dbs.com.sg" num="18001111111"/>
+    <string-array name="OCBC" chineseName="华侨银行" translatable="true" website="https://www.ocbc.com" num="18003633333"/>
 </resources>
