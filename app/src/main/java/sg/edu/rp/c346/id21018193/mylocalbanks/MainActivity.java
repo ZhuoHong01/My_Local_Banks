@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
             }
             else if(menu.equals("Contact The Bank")){
-                Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse(String.valueOf(1111111)));
+                Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse("18001111111"));
                 startActivity(intentCall);
             }
             wordClicked = "dbs";
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
             }
             else if(menu.equals("Contact The Bank")){
-                Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse(String.valueOf(3633333)));
+                Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse("18003633333"));
                 startActivity(intentCall);
             }
             wordClicked = "ocbc";
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
             }
             else if(menu.equals("Contact The Bank")){
-                Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse(String.valueOf(2222121)));
+                Intent intentCall = new Intent(Intent.ACTION_CALL, Uri.parse("18002222121"));
                 startActivity(intentCall);
             }
             wordClicked = "uob";
