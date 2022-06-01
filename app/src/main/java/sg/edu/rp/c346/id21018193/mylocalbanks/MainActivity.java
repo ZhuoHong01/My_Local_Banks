@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
-        menu.add(0,0,0,"English");
-        menu.add(0,1,1,"Chinese");
+        menu.add(0,0,0,"Website");
+        menu.add(0,1,1,"Contact The Bank");
 
         if(v == dbs){
             wordClicked = "dbs";
