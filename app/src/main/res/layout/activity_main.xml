@@ -104,7 +104,7 @@
 
                     android:layout_weight="1"
                     android:text="Login"
-                    android:textColor="#FFFEFE"
+                    android:textColor="#FFFFFF"
                     app:backgroundTint="#B33636"
                     tools:ignore="TextContrastCheck" />
 
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Register"
-                    android:textColor="#FDFCFC"
+                    android:textColor="#FFFFFF"
                     app:backgroundTint="#8A3131"
                     tools:ignore="TextContrastCheck" />
             </LinearLayout>
