@@ -98,20 +98,26 @@
 
                 <Button
                     android:id="@+id/buttonLogin"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
 
+                    android:layout_weight="1"
                     android:text="Login"
-                    app:backgroundTint="#B33636" />
+                    android:textColor="#FFFEFE"
+                    app:backgroundTint="#B33636"
+                    tools:ignore="TextContrastCheck" />
 
                 <Button
                     android:id="@+id/buttonRegister"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Register"
-                    app:backgroundTint="#8A3131" />
+                    android:textColor="#FDFCFC"
+                    app:backgroundTint="#8A3131"
+                    tools:ignore="TextContrastCheck" />
             </LinearLayout>
 
         </LinearLayout>
